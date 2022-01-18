@@ -13,6 +13,36 @@
                 <img src="../assets/img/home-movation-hero-image.png" alt="">
             </div>
         </div>
+        <div class="stats container">
+            <div class="single-stats">
+                <img src="../assets/img/background-pattern-grid-line-06.png" alt="">
+                <div class="stats-text">
+                    <h2>1.926</h2>
+                    <span>FINISHED SESSION</span>
+                </div>
+            </div>
+            <div class="single-stats">
+                <img src="../assets/img/background-pattern-grid-line-06.png" alt="">
+                <div class="stats-text">
+                    <h2>100%</h2>
+                    <span>SATISFACITON RATE</span>
+                </div>
+            </div>
+            <div class="single-stats">
+                <img src="../assets/img/background-pattern-grid-line-06.png" alt="">
+                <div class="stats-text">
+                    <h2>3092+</h2>
+                    <span>ENROLLED LEARNERS</span>
+                </div>
+            </div>
+            <div class="single-stats">
+                <img src="../assets/img/background-pattern-grid-line-06.png" alt="">
+                <div class="stats-text">
+                    <h2>200</h2>
+                    <span>ONLINE INSTRUCTORS</span>
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 
@@ -39,6 +69,28 @@
             line-height: 30px;
             color: #333333;
             padding-top: 20px;
+        }
+    }
+}
+.stats{
+    font-family: 'Aleo', serif;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    .single-stats{
+        .stats-text{
+            position: absolute;
+            top: 1000px;
+            padding-left: 80px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 45px;
+        }
+        h2{
+            font-size: 35px;
+            color: #20ad96;
+            
         }
     }
 }
