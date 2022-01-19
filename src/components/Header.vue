@@ -5,29 +5,17 @@
             <div class="logo">
                 <img src="../assets/img/dark-logo.png" alt="logo">
             </div>
-             <!-- Header Nav -->
-            <div>
-                <div class="nav">
-                    <div class="nav-element">
-                          Home <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="nav-element">
-                        Pages <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="nav-element">
-                        Courses <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="nav-element">
-                        Features <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="nav-element">
-                        Bolg <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="nav-element">
-                        Shop <i class="fas fa-chevron-down"></i>
-                    </div>
+            <div class="header-menu">
+                    <ul>
+                        <li 
+                            v-for="(link, index) in links" 
+                            :key="index"
+                            :class="{ active: link.active }"
+                        >
+                            <a :href="link.href">{{ link.text }}</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
             <div class="social-media">
                 <div class="social">
                     <i class="fab fa-twitter"></i>
@@ -46,13 +34,55 @@
     </header>
 </template>
 
+<script>
+export default {
+    name: "Header",
+    data: function() {
+        return {
+            links: [
+                {
+                    href: '#',
+                    text: 'Home',
+                    active: false,
+                },
+                {
+                    href: '#',
+                    text: 'Pages',
+                    active: true,
+                },
+                {
+                    href: '#',
+                    text: 'Courses',
+                    active: false,
+                },
+                {
+                    href: '#',
+                    text: 'Features',
+                    active: false,
+                },
+                {
+                    href: '#',
+                    text: 'Blog',
+                    active: false,
+                },
+                {
+                    href: '#',
+                    text: 'Shop',
+                    active: false,
+                },
+            ],
+        }
+    },
+}
+</script>
+
 <style scoped lang="scss">
 @import '../style/general.scss';
 // header{
 //         position: absolute;
 // }
 .head{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
     height: 105px;
     line-height: 100px;
     display: flex;
@@ -62,6 +92,20 @@
         img{
             width: 170px;
         }
+    }
+    .header-menu {
+                li {
+                    display: inline-block;
+                    line-height: 110px;
+                    margin: 0 12px;
+                    font-size: 15px;
+                    color: #767291;
+                }
+                a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: #767291;
+                }
     }
     .nav{
         display: flex;
