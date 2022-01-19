@@ -75,10 +75,10 @@
                     <img src="../assets/img/motivation-course-06-480x298.jpg" alt="">
                     <div class="span-description">
                         <span class="span-green">$30.00</span>
-                        <span>How to be successful: Create A Growth Mindset For Succes</span>
+                        <span class="span-purple">How to be successful: Create A Growth Mindset For Succes</span>
                         <div>
-                            <span><i class="far fa-file-alt"></i> 3 Lessons </span>
-                            <span><i class="far fa-user"></i> 50 Students</span>
+                            <span class="buy"><i class="far fa-file-alt"></i> 3 Lessons </span>
+                            <span class="buy"><i class="far fa-user"></i> 50 Students</span>
                         </div>
                     </div> 
                 </div>
@@ -86,10 +86,10 @@
                     <img src="../assets/img/motivation-course-05-480x298.jpg" alt="">
                     <div class="span-description">
                         <span class="span-green">$30.00</span>
-                        <span>How to be successful: Create A Growth Mindset For Succes</span>
+                        <span class="span-purple">How to be successful: Create A Growth Mindset For Succes</span>
                         <div>
-                            <span><i class="far fa-file-alt"></i> 3 Lessons </span>
-                            <span><i class="far fa-user"></i> 50 Students</span>
+                            <span class="buy"><i class="far fa-file-alt"></i> 3 Lessons </span>
+                            <span class="buy"><i class="far fa-user"></i> 50 Students</span>
                         </div>
                     </div> 
                 </div>
@@ -97,10 +97,10 @@
                     <img src="../assets/img/motivation-course-04-480x298.jpg" alt="">
                     <div class="span-description">
                         <span class="span-green">$30.00</span>
-                        <span>How to be successful: Create A Growth Mindset For Succes</span>
+                        <span class="span-purple">How to be successful: Create A Growth Mindset For Succes</span>
                         <div>
-                            <span><i class="far fa-file-alt"></i> 3 Lessons </span>
-                            <span><i class="far fa-user"></i> 50 Students</span>
+                            <span class="buy"><i class="far fa-file-alt"></i> 3 Lessons </span>
+                            <span class="buy"><i class="far fa-user"></i> 50 Students</span>
                         </div>
                     </div> 
                 </div>
@@ -110,10 +110,10 @@
                     <img src="../assets/img/motivation-course-03-480x298.jpg" alt="">
                     <div class="span-description">
                         <span class="span-green">$30.00</span>
-                        <span>How to be successful: Create A Growth Mindset For Succes</span>
+                        <span class="span-purple">How to be successful: Create A Growth Mindset For Succes</span>
                         <div>
-                            <span><i class="far fa-file-alt"></i> 3 Lessons </span>
-                            <span><i class="far fa-user"></i> 50 Students</span>
+                            <span class="buy"><i class="far fa-file-alt"></i> 3 Lessons </span>
+                            <span class="buy"><i class="far fa-user"></i> 50 Students</span>
                         </div>
                     </div> 
                 </div>
@@ -121,10 +121,10 @@
                     <img src="../assets/img/motivation-course-02-480x298.jpg" alt="">
                     <div class="span-description">
                         <span class="span-green">$30.00</span>
-                        <span>How to be successful: Create A Growth Mindset For Succes</span>
+                        <span class="span-purple">How to be successful: Create A Growth Mindset For Succes</span>
                         <div>
-                            <span><i class="far fa-file-alt"></i> 3 Lessons </span>
-                            <span><i class="far fa-user"></i> 50 Students</span>
+                            <span class="buy"><i class="far fa-file-alt"></i> 3 Lessons </span>
+                            <span class="buy"><i class="far fa-user"></i> 50 Students</span>
                         </div>
                     </div> 
                 </div>
@@ -132,10 +132,10 @@
                     <img src="../assets/img/motivation-course-01-480x298.jpg" alt="">
                     <div class="span-description">
                         <span class="span-green">$30.00</span>
-                        <span>How to be successful: Create A Growth Mindset For Succes</span>
+                        <span class="span-purple">How to be successful: Create A Growth Mindset For Succes</span>
                         <div>
-                            <span><i class="far fa-file-alt"></i> 3 Lessons </span>
-                            <span><i class="far fa-user"></i> 50 Students</span>
+                            <span class="buy"><i class="far fa-file-alt"></i> 3 Lessons </span>
+                            <span class="buy"><i class="far fa-user"></i> 50 Students</span>
                         </div>
                     </div> 
                 </div>
@@ -282,6 +282,7 @@
     }
     .courses-row{
         display: flex;
+        font-family: 'Roboto', sans-serif;
         .first-row{
             display: flex;
             flex-direction: column;
@@ -295,6 +296,13 @@
                 flex-direction: column;
                 font-size: 20px;
                 padding: 10px 15px;
+            }
+            .buy{
+                font-size: 14px;
+                padding-right: 20px;
+            }
+            .span-green{
+                font-weight: 800;
             }
         }
     }
