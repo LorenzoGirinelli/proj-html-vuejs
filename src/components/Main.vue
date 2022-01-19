@@ -43,6 +43,18 @@
                 </div>
             </div>
         </div>
+        <div class="alpha container">
+            <h4>ABOUT ME</h4>
+            <div class="alpha-text">
+                <div class="alpa-text-left">
+                    <h3>How to Be an Alpha Male: The 15 Habits of True Alphas </h3>
+                </div>
+                <div class="alpa-text-right">
+                    <span>Want to learn how to be <span class="span-green">an alpha male</span>? How to be more masculine? How to be the man you've always wanted to be?</span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At accusantium sapiente cum voluptatum. Vero ipsum consequatur, provident ut eveniet culpa magnam ex consectetur, et praesentium alias qui neque aliquam natus.</p>
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 
@@ -91,6 +103,44 @@
             font-size: 35px;
             color: #20ad96;
             
+        }
+    }
+}
+.alpha{
+    margin-top: 100px;
+    font-family: 'Playfair Display', serif;
+    h4{
+        color: #20ad96;
+        padding: 10px 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .alpha-text{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .alpa-text-left{
+        width: 80%;
+        padding-right: 200px;
+        font-size: 35px;
+        h3{
+            font-weight: lighter;
+        }
+    }
+    .alpa-text-right{
+        width: 80%;
+        font-family: 'Roboto', sans-serif;
+        span{
+            font-weight: 800;
+            line-height: 35px;
+            .span-green{
+                color: #20ad96;
+            }
+        }
+        p{
+            padding-top: 20px;
+            font-weight: 500;
+            line-height: 25px;
         }
     }
 }
