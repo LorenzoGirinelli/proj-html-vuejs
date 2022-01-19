@@ -7,6 +7,9 @@
     width: 70%;
     margin: auto;
 }
+img{
+    max-width: 100%;
+}
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
@@ -20,4 +23,7 @@
     font-weight: bold;
     font-size: 14px;
     margin: 30px 0;
+}
+.span-green{
+    color: #20ad96;
 }

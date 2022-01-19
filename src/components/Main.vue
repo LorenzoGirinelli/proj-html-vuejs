@@ -54,6 +54,92 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At accusantium sapiente cum voluptatum. Vero ipsum consequatur, provident ut eveniet culpa magnam ex consectetur, et praesentium alias qui neque aliquam natus.</p>
                 </div>
             </div>
+            <div class="alpha-video">
+                <!-- <img src="../assets/img/home-movation-video-poster-670x450.jpg" alt=""> -->
+                <div class="alpha-image">
+                    <img src="../assets/img/icon-youtube-play.png" alt="">
+                </div>
+                <div class="alpha-description">
+                    <span>"Every morning you have two choices: continue to slepp with your dreams, or wake up and chase them."</span>
+                    <img src="../assets/img/home-movation-shape-01.png" alt="">
+                    <h3>Kaixa Stark</h3>
+                    <h5>WINGMAN</h5>
+                </div>
+            </div>
+        </div>
+        <div class="courses container">
+            <h4>BEGIN YOUR JURNEY AT MAXCOACH</h4>
+            <h2>Lastest <span class="span-green">Online Courses</span></h2>
+            <div class="courses-row">
+                <div class="first-row">
+                    <img src="../assets/img/motivation-course-06-480x298.jpg" alt="">
+                    <div class="span-description">
+                        <span class="span-green">$30.00</span>
+                        <span>How to be successful: Create A Growth Mindset For Succes</span>
+                        <div>
+                            <span><i class="far fa-file-alt"></i> 3 Lessons </span>
+                            <span><i class="far fa-user"></i> 50 Students</span>
+                        </div>
+                    </div> 
+                </div>
+                <div class="first-row">
+                    <img src="../assets/img/motivation-course-05-480x298.jpg" alt="">
+                    <div class="span-description">
+                        <span class="span-green">$30.00</span>
+                        <span>How to be successful: Create A Growth Mindset For Succes</span>
+                        <div>
+                            <span><i class="far fa-file-alt"></i> 3 Lessons </span>
+                            <span><i class="far fa-user"></i> 50 Students</span>
+                        </div>
+                    </div> 
+                </div>
+                <div class="first-row">
+                    <img src="../assets/img/motivation-course-04-480x298.jpg" alt="">
+                    <div class="span-description">
+                        <span class="span-green">$30.00</span>
+                        <span>How to be successful: Create A Growth Mindset For Succes</span>
+                        <div>
+                            <span><i class="far fa-file-alt"></i> 3 Lessons </span>
+                            <span><i class="far fa-user"></i> 50 Students</span>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="courses-row">
+                <div class="first-row">
+                    <img src="../assets/img/motivation-course-03-480x298.jpg" alt="">
+                    <div class="span-description">
+                        <span class="span-green">$30.00</span>
+                        <span>How to be successful: Create A Growth Mindset For Succes</span>
+                        <div>
+                            <span><i class="far fa-file-alt"></i> 3 Lessons </span>
+                            <span><i class="far fa-user"></i> 50 Students</span>
+                        </div>
+                    </div> 
+                </div>
+                <div class="first-row">
+                    <img src="../assets/img/motivation-course-02-480x298.jpg" alt="">
+                    <div class="span-description">
+                        <span class="span-green">$30.00</span>
+                        <span>How to be successful: Create A Growth Mindset For Succes</span>
+                        <div>
+                            <span><i class="far fa-file-alt"></i> 3 Lessons </span>
+                            <span><i class="far fa-user"></i> 50 Students</span>
+                        </div>
+                    </div> 
+                </div>
+                <div class="first-row">
+                    <img src="../assets/img/motivation-course-01-480x298.jpg" alt="">
+                    <div class="span-description">
+                        <span class="span-green">$30.00</span>
+                        <span>How to be successful: Create A Growth Mindset For Succes</span>
+                        <div>
+                            <span><i class="far fa-file-alt"></i> 3 Lessons </span>
+                            <span><i class="far fa-user"></i> 50 Students</span>
+                        </div>
+                    </div> 
+                </div>
+            </div>
         </div>
     </main>
 </template>
@@ -118,6 +204,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 100px;
     }
     .alpa-text-left{
         width: 80%;
@@ -133,14 +220,82 @@
         span{
             font-weight: 800;
             line-height: 35px;
-            .span-green{
-                color: #20ad96;
-            }
         }
         p{
             padding-top: 20px;
             font-weight: 500;
             line-height: 25px;
+        }
+    }
+}
+.alpha-video{
+    display: flex;
+    align-items: center;
+    .alpha-image{
+        background-image: url("../assets/img/home-movation-video-poster-670x450.jpg");
+        width: 100%;
+        height: 450px;
+        border-radius: 7px;
+        img{
+            padding-left: 285px;
+            padding-top: 190px;
+        }
+    }
+    .alpha-description{
+        width: 61%;
+        margin-left: 150px;
+        padding-right: 100px;
+        font-size: 25px;
+        line-height: 44px;
+        display: flex;
+        flex-direction: column;
+        img{
+            margin-top: 35px;
+            margin-bottom: 10px;
+            width: 30px;
+        }
+        h3{
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-weight: 800;
+            color: #767291;
+        }
+        h5{
+            font-family: 'Roboto', sans-serif;
+            font-size: 13px;
+            color: #767291;
+        }
+    }
+}
+.courses{
+    margin-top: 180px;
+    h2{
+        font-size: 50px;
+        font-weight: lighter;
+        line-height: 110px;
+        text-align: center;
+    }
+    h4{
+        font-family: 'Roboto', sans-serif;
+        color: #333333;
+        text-align: center;
+    }
+    .courses-row{
+        display: flex;
+        .first-row{
+            display: flex;
+            flex-direction: column;
+            line-height: 40px;
+            margin: 0 15px;
+            img{
+                width: 480px;
+            }
+            .span-description{
+                display: flex;
+                flex-direction: column;
+                font-size: 20px;
+                padding: 10px 15px;
+            }
         }
     }
 }
